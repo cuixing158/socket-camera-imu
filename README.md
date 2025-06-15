@@ -1,4 +1,4 @@
-# my_socket_camera
+# Socket Camera IMU
 
 A C++ project for receiving real-time IMU data from a camera over UDP, and registering the PC's IP address with the camera over TCP/IP.
 
