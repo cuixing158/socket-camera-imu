@@ -1,7 +1,7 @@
 /**
  * @file        :main.cpp
  * @brief       :PC端接收 IMU 实时数据，通过TCP/IP注册摄像头IP地址，并通过UDP接收IMU数据。
- * @note     :必须和相机处于同一局域网，且固定不变（如 DHCP 设置静态 IP）.允许PC端监听 5555 端口，接收 IMU 数据。功能同my_socket.py文件。输出的时间戳是微秒单位，是从系统相机开启时刻开始的。
+ * @note        :必须和相机处于同一局域网，且固定不变（如 DHCP 设置静态 IP）.允许PC端监听 5555 端口，接收 IMU 数据。功能同main.py文件。输出的时间戳是微秒单位，是从系统相机开启时刻开始的。
  * @details     :PC端通过TCP/IP注册摄像头IP地址，并通过UDP接收IMU数据。接收到的IMU数据是XML格式的字符串，包含多个字段，如陀螺仪、加速度计等。程序解析XML数据并输出到控制台。
  * @date        :2025/06/06 17:14:25
  * @author      :cuixingxing(cuixingxing150@gmail.com)
