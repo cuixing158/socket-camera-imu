@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 """
-@file        :my_socket.py
-@description :使用TCP连接相机，并通过UDP实时接收IMU数据！成功测试通过
+@file        :main.py
+@description :使用TCP连接相机，并通过UDP实时接收IMU数据！
 @date        :2025/06/06 16:15:59
 @author      :cuixingxing
 @email       :cuixingxing150@gmail.com
